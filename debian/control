@@ -1,0 +1,15 @@
+Source: pythonhelloworld-debianpackage
+Section: unknown
+Priority: optional
+Maintainer: Adrian Gibanel Lopez <adrian15sgd@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://anonscm.debian.org/collab-maint/pythonhelloworld-debianpackage.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/pythonhelloworld-debianpackage.git;a=summary
+
+Package: pythonhelloworld-debianpackage
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
