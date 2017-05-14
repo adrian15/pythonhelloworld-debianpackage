@@ -1,5 +1,5 @@
 pythonhelloworld-debianpackage (0.1-1) unstable; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release
 
  -- Adrian Gibanel Lopez <adrian15sgd@gmail.com>  Sat, 13 May 2017 16:23:28 +0000
