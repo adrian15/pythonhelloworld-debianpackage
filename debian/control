@@ -11,5 +11,5 @@ Homepage: <insert the upstream URL, if relevant>
 Package: pythonhelloworld-debianpackage
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Hello World program written in python
+ This basic python program will output 'Hello World'.
