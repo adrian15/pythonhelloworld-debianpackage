@@ -1,6 +1,9 @@
 
+prefix?=/usr/local
+target=$(DESTDIR)$(prefix)
+
 all:
 .PHONY	:	all
 install:
-	install -d $(DESTDIR)/usr/bin/
-	install -m 755 helloworld.py $(DESTDIR)/usr/bin/ 
+	install -d $(target)/bin/
+	install -m 755 helloworld.py $(target)/bin/ 
