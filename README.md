@@ -1,7 +1,7 @@
 # pythonhelloworld-debianpackage
 Python Hello World example. It will also be Debian packaged.
 
-== Requirements for building pythonhelloworld-debianpackage ==
+## Requirements for building pythonhelloworld-debianpackage
 
 As explained in https://www.debian.org/doc/manuals/maint-guide/start.en.html#needprogs (New Maintainers guide - 1.2. Programs needed for development) you need to install these packages:
 
@@ -14,6 +14,8 @@ As explained in https://www.debian.org/doc/manuals/maint-guide/build.en.html#com
 ```
 apt-get install debhelper
 ```
+
+## This is not the formal way of packaging Python programs
 
 This is my way of packaging a Python hello world into a Debian package. This is not the suggested way of doing so but it worked for me and I learnt a lot while making it.
 
