@@ -14,3 +14,14 @@ As explained in https://www.debian.org/doc/manuals/maint-guide/build.en.html#com
 ```
 apt-get install debhelper
 ```
+
+This is my way of packaging a Python hello world into a Debian package. This is not the suggested way of doing so but it worked for me and I learnt a lot while making it.
+
+The suggested way of doing a Python package (which then has an specific way of packaging it into a Debian package) can be found here:
+
+* https://packaging.python.org/
+* https://docs.python.org/3/distributing/
+
+Finally you are supposed to check specific Python policy on how to package the former Python package into a Debian package:
+
+https://www.debian.org/doc/packaging-manuals/python-policy/
